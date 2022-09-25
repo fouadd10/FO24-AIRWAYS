@@ -1,0 +1,190 @@
+html{
+    font-family: poppins;
+    color: #333;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.701) , rgba(0, 0, 0, 0.7)) , url(../images/airplane.7.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-top: 20px;
+    height: 50px;
+    
+}
+
+.main-nav{
+    list-style:georgian;
+    
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 30px;
+}
+.main-nav li a {
+    color: #fff;
+    text-decoration: dotted;
+}
+.main-nav li a :hover {
+    color: rgb(7, 66, 139);
+    
+}
+
+.hero{
+    position:absolute;
+    
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin-bottom: 30px;
+}
+.btn{
+    border: solid 1px rgb(0, 89, 255);
+    padding: 8px 20px;
+    border-radius: 50px 10px 50px 10px;
+    color: rgb(244, 244, 244);
+    text-decoration: none;
+}
+.btn:hover{
+color: rgb(13, 21, 92);
+background-color: rgb(255, 255, 255);
+}
+
+section{
+    padding: 40px 0px;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+
+}
+h3{
+    text-align: left;
+    font-size: 2.3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+
+}
+
+
+.features{
+    text-align: center;
+   
+}
+.features i{
+    color: rgb(18, 52, 133);
+    font-size: 80px;
+    
+}
+.services{
+padding: 0px;
+margin-bottom : -5px;
+background-color: black;
+overflow: hidden;
+}
+.services img{
+    width: 100%; 
+    opacity: .6;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.services img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+
+#ond{
+    background: linear-gradient(rgba(0, 0, 0, 0.701) , rgba(0, 0, 0, 0.7)) , url(../images/airplane.7.jpg) ;
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+    padding: 70px;
+margin-top: -35px;
+}
+#ond i{
+font-size: 50px;
+}   
+#ond p{
+line-height: 2;
+}
+form{ padding-top: 50px;}
+label {
+    margin-bottom: 7px;
+}
+input [type=email],
+input[type=text],
+textarea,
+select{
+    margin-bottom: 7px;
+    width: 100%;
+    border: solid 1px rgb(197, 197, 223);
+    border-radius: 10px;
+    padding: 5px;
+}
+input[type=checkbox]{
+margin-bottom: 10px;
+margin-left: 50px;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: yellowgreen;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: solid yellowgreen 1px;
+
+}
+footer{
+    padding: 40px 0px;
+    background-color: rgb(6, 6, 51);
+    color: antiquewhite;
+}
+footer p{
+    text-align: center;
+    margin-top: 20px;
+    color: antiquewhite;
+}
+.foote-nav , .social-nav {
+  list-style: none;
+  display: flex;
+}
+.social-nav{
+    float: right;
+}
+.foote-nav li , .social-nav li {
+   margin-right: 20px;
+  }
+  .foote-nav li a , .social-nav li a{
+    text-decoration: none;
+    color: antiquewhite;
+   }
